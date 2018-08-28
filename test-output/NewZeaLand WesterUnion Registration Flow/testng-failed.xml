@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NewZeaLand WesterUnion Registration Flow]">
+  <test thread-count="5" name="Registration Flow(failed)">
+    <classes>
+      <class name="WesternUnion_NZsitePageClass.RegisterPageClass">
+        <methods>
+          <include name="Register"/>
+          <include name="OpeningBrowser"/>
+          <include name="ClosingBrowser"/>
+        </methods>
+      </class> <!-- WesternUnion_NZsitePageClass.RegisterPageClass -->
+    </classes>
+  </test> <!-- Registration Flow(failed) -->
+</suite> <!-- Failed suite [NewZeaLand WesterUnion Registration Flow] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Track transfer Module]">
+  <test thread-count="5" name="Track transfer(failed)">
+    <classes>
+      <class name="WesternUnion_NZsitePageClass.TrackTransferClass">
+        <methods>
+          <include name="FailingThisMethod"/>
+          <include name="SearchMTCNWithoutMTCNNumber"/>
+          <include name="GetResult"/>
+          <include name="OpeningBrowser"/>
+          <include name="InitialisingExtentReports"/>
+          <include name="CreateTest"/>
+          <include name="GeneratingReport"/>
+          <include name="ClosingBrowser"/>
+        </methods>
+      </class> <!-- WesternUnion_NZsitePageClass.TrackTransferClass -->
+    </classes>
+  </test> <!-- Track transfer(failed) -->
+</suite> <!-- Failed suite [Track transfer Module] -->
